@@ -1,0 +1,16 @@
+*.dat
+results/
+
+# keep tracking info.dat as it contains useful information
+!info.dat
+#starts with an exclamation mark
+*.txt
+results/
+!info.txt
+#one solution
+log_*.txt
+#Another solution\logs/*.txt
+logs/*.txt
+!logs/info.txt
+#another way - use git add -f logs/info.txt
+*.txt
